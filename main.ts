@@ -11,11 +11,11 @@ import { join } from "node:path";
 const OUT_DIR = process.env.MAKEFUN_OUTPUT_DIR || "/output";
 const MAX_CHARS = 220;
 
-// The annoyance, the invention and its silly mechanism, in one sentence.
+// v2: the annoyance (snoozing), the invention, and a mechanism that escalates, in one sentence.
 const ENTRY =
-  "For anyone who has lost ten minutes hunting a lid: the Tupperware Matchmaker, " +
-  "a drawer that plays a slow song when a lid and its true container come within " +
-  "reach, and dims the light so the orphan lids needn't watch.";
+  "For people who say 'five more minutes': the Honest Snooze, an alarm clock that " +
+  "grants the five minutes, then quietly emails your boss a 40-slide deck titled " +
+  "'Where He Actually Is'.";
 
 function fail(message: string): never {
   console.error("entry.txt rejected: " + message);
